@@ -9,17 +9,37 @@
     background-color: blueviolet;
     width: 50%;
     height: 50vh;
-    
+    border: solid 5px ;   
 }
 
 .item{
-    align-items: stretch;
+    align-items: flex-start;
     margin-right: auto;
     background-color: orange;
     height: 30vh;
     width: 20%;
     border-radius: 20%;
     border: solid 5px;
-    box-shadow: 5px 5px 5px black;
     box-shadow: inset 5px 5px 20px white;
+}
+
+.one{
+    height: 25vh;
+    
+}
+
+.two{
+    height: 35vh;
+}
+
+.three{
+    height: 15vh;
+}
+
+.four{
+    height: 20vh;
+}
+
+.second{
+    align-items: center;
 }
