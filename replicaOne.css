@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    background-color: blueviolet;
+    width: 50%;
+    height: 50vh;
+    
+}
+
+.item{
+    align-items: stretch;
+    margin-right: auto;
+    background-color: orange;
+    height: 30vh;
+    width: 20%;
+    border-radius: 20%;
+    border: solid 5px;
+    box-shadow: 5px 5px 5px black;
+    box-shadow: inset 5px 5px 20px white;
+}
